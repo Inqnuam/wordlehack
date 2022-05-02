@@ -1,0 +1,216 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-a47b4683.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-3bd5fae0.js",
+      "_index-dcb5d3c4.js",
+      "_preload-helper-33318b22.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/en/index.svelte",
+      "src/routes/fr/index.svelte",
+      "src/routes/index.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-c7eb02bb.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-3bd5fae0.js",
+      "_index-9f709e4b.js",
+      "_index-dcb5d3c4.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-0099e251.css"
+    ],
+    "assets": [
+      "assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2",
+      "assets/fira-mono-all-400-normal-1e3b098c.woff",
+      "assets/fira-mono-cyrillic-400-normal-c7d433fd.woff2",
+      "assets/fira-mono-greek-ext-400-normal-9e2fe623.woff2",
+      "assets/fira-mono-greek-400-normal-a8be01ce.woff2",
+      "assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
+      "assets/fira-mono-latin-400-normal-e43b3538.woff2"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-d76149b2.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-3bd5fae0.js"
+    ]
+  },
+  "src/routes/en/index.svelte": {
+    "file": "pages/en/index.svelte-5640d3d2.js",
+    "src": "src/routes/en/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-33318b22.js",
+      "_index-3bd5fae0.js",
+      "_FilteredWords-19b5622d.js",
+      "_index-9f709e4b.js"
+    ],
+    "dynamicImports": [
+      "src/lib/words/en/words5.js"
+    ]
+  },
+  "src/routes/fr/index.svelte": {
+    "file": "pages/fr/index.svelte-a2db9d8c.js",
+    "src": "src/routes/fr/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-33318b22.js",
+      "_index-3bd5fae0.js",
+      "_FilteredWords-19b5622d.js",
+      "_index-9f709e4b.js"
+    ],
+    "dynamicImports": [
+      "src/lib/words/fr/words4.js",
+      "src/lib/words/fr/words5.js",
+      "src/lib/words/fr/words6.js",
+      "src/lib/words/fr/words7.js",
+      "src/lib/words/fr/words8.js",
+      "src/lib/words/fr/words9.js",
+      "src/lib/words/fr/words10.js",
+      "src/lib/words/fr/words11.js",
+      "src/lib/words/fr/words12.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-a07d6a0c.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-3bd5fae0.js"
+    ]
+  },
+  "_index-3bd5fae0.js": {
+    "file": "chunks/index-3bd5fae0.js"
+  },
+  "_index-dcb5d3c4.js": {
+    "file": "chunks/index-dcb5d3c4.js",
+    "imports": [
+      "_index-3bd5fae0.js"
+    ]
+  },
+  "_preload-helper-33318b22.js": {
+    "file": "chunks/preload-helper-33318b22.js"
+  },
+  "_index-9f709e4b.js": {
+    "file": "chunks/index-9f709e4b.js",
+    "imports": [
+      "_index-3bd5fae0.js"
+    ]
+  },
+  "_FilteredWords-19b5622d.js": {
+    "file": "chunks/FilteredWords-19b5622d.js",
+    "imports": [
+      "_index-3bd5fae0.js",
+      "_index-9f709e4b.js"
+    ],
+    "css": [
+      "assets/FilteredWords-065b4f6f.css"
+    ]
+  },
+  "src/lib/words/en/words5.js": {
+    "file": "chunks/words5-122caa18.js",
+    "src": "src/lib/words/en/words5.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-dcb5d3c4.js",
+      "_index-3bd5fae0.js"
+    ]
+  },
+  "src/lib/words/fr/words4.js": {
+    "file": "chunks/words4-3057d22b.js",
+    "src": "src/lib/words/fr/words4.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-dcb5d3c4.js",
+      "_index-3bd5fae0.js"
+    ]
+  },
+  "src/lib/words/fr/words5.js": {
+    "file": "chunks/words5-f234df1b.js",
+    "src": "src/lib/words/fr/words5.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-dcb5d3c4.js",
+      "_index-3bd5fae0.js"
+    ]
+  },
+  "src/lib/words/fr/words6.js": {
+    "file": "chunks/words6-da020d34.js",
+    "src": "src/lib/words/fr/words6.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-dcb5d3c4.js",
+      "_index-3bd5fae0.js"
+    ]
+  },
+  "src/lib/words/fr/words7.js": {
+    "file": "chunks/words7-26a53dd2.js",
+    "src": "src/lib/words/fr/words7.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-dcb5d3c4.js",
+      "_index-3bd5fae0.js"
+    ]
+  },
+  "src/lib/words/fr/words8.js": {
+    "file": "chunks/words8-1c6b8418.js",
+    "src": "src/lib/words/fr/words8.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-dcb5d3c4.js",
+      "_index-3bd5fae0.js"
+    ]
+  },
+  "src/lib/words/fr/words9.js": {
+    "file": "chunks/words9-b54f0b79.js",
+    "src": "src/lib/words/fr/words9.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-dcb5d3c4.js",
+      "_index-3bd5fae0.js"
+    ]
+  },
+  "src/lib/words/fr/words10.js": {
+    "file": "chunks/words10-f9d24e44.js",
+    "src": "src/lib/words/fr/words10.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-dcb5d3c4.js",
+      "_index-3bd5fae0.js"
+    ]
+  },
+  "src/lib/words/fr/words11.js": {
+    "file": "chunks/words11-6c402b5e.js",
+    "src": "src/lib/words/fr/words11.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-dcb5d3c4.js",
+      "_index-3bd5fae0.js"
+    ]
+  },
+  "src/lib/words/fr/words12.js": {
+    "file": "chunks/words12-b22501d1.js",
+    "src": "src/lib/words/fr/words12.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-dcb5d3c4.js",
+      "_index-3bd5fae0.js"
+    ]
+  }
+}
