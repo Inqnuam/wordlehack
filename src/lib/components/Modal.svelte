@@ -1,17 +1,17 @@
 <script>
-	import { createEventDispatcher } from 'svelte';
-	import { fly } from 'svelte/transition';
+	import { createEventDispatcher } from "svelte";
+	import { fly } from "svelte/transition";
 	export let isOpen = false;
-	export let title = 'Modal';
-	export let btnTitle = 'Print';
+	export let title = "Modal";
+	export let btnTitle = "Print";
 	export let submitIsDisabled = false;
 	const dispatch = createEventDispatcher();
-	$: isOpen, dispatch(isOpen ? 'open' : 'close');
+	$: isOpen, dispatch(isOpen ? "open" : "close");
 </script>
 
 {#if isOpen}
 	<div
-		class="modal show"
+		class="modal"
 		style="display: block;"
 		tabindex="-1"
 		in:fly|local={{ y: -500, duration: 500 }}
@@ -28,31 +28,22 @@
 				</div>
 
 				<div class="customFooter">
-					<div />
-
 					<div>
-						<div class="d-flex justify-content-between">
-							<button
-								type="button"
-								class="btn btn-secondary shadow-none"
-								on:click={() => (isOpen = false)}>Fermer</button
-							>
+						<button type="button" on:click={() => (isOpen = false)}>Fermer</button>
 
-							<button
-								type="submit"
-								disabled={submitIsDisabled}
-								class="btn btn-primary ms-1 shadow-none"
-								on:click={() => {
-									dispatch('submit');
-								}}>{btnTitle}</button
-							>
-						</div>
+						<button
+							type="submit"
+							disabled={submitIsDisabled}
+							on:click={() => {
+								dispatch("submit");
+							}}>{btnTitle}</button
+						>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="modal-backdrop show" out:fly|local={{ duration: 500 }} style="display: block;" />
+	<div class="modal-backdrop" out:fly|local={{ duration: 500 }} style="display: block;" />
 {/if}
 
 <style>
@@ -131,8 +122,6 @@
 		width: 100vw;
 		height: 100vh;
 		background-color: #000;
-	}
-	.modal-backdrop.show {
 		opacity: 0.5;
 	}
 

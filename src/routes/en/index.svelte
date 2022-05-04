@@ -94,8 +94,7 @@
 </script>
 
 <svelte:head>
-	<title>{letterCount} letters - English - Wordle Hack</title>
-	<meta name="description" content="About this app" />
+	<title>{letterCount ?? 5} letters - English - Wordle Hack</title>
 </svelte:head>
 
 {#if wordsList}
